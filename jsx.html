@@ -12,13 +12,17 @@
     <div id="jsx"></div>
     <script type="text/babel">
         function Car(props) {
-            return <h3 className="my-3">i am a {props.brand} !</h3>
+            return <h1 className="my-3">I am a {props.brand} !</h1>
         }
         const myElement = <Car brand="hyun" />;
         const container = document.getElementById('jsx');
-        const root = reactDOM.createRoot(container);
+        const root = ReactDOM.createRoot(container);
         root.render(myElement);
     </script>
+
+
+
+
 
 </body>
 
